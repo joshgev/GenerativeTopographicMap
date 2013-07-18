@@ -1,0 +1,5 @@
+This is an implementation of Christopher Bishop's Generative Topographic Map, a probabilistic latent variable model that can be used for data visualization.  A description of the algorithm is available from Microsoft Research (research.microsoft.com/~cmbishop/downloads/bishop-gtm-ncomp-98.pdf). A more succinct overview is available on Wikipedia (http://en.wikipedia.org/wiki/Generative_topographic_map).  
+
+This package depends on the jblas linear algebra package for Java (http://mikiobraun.github.io/jblas/).
+
+I have written a number of Python scripts for visualizing the program's output (latent space posterior probabilities) as well as some scripts to generate sample input to the program. These are available in the "scripts" directory. 
